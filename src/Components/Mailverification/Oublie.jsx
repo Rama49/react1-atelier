@@ -7,7 +7,6 @@ const Oublie = () => {
     return(
         <form>
             <div className="container col-lg-4 col-sm-6 col-md-12 bg-ligth shadow mt-1">
-                <div className="">
                    <div className="justify-content-center d-flex pt-2 pb-2">
                       <img src={logo} />
                    </div>
@@ -20,9 +19,9 @@ const Oublie = () => {
                     <Form.Label>Confirmation:</Form.Label>
                     <input type="text" className="form-control mb-3" />
                     <div className="text-center bg-success mb-3">
-                    <Link to="" className="w-100 text-white mb-3 text-decoration-none"> <span className="mb-3">Envoyer</span> </Link>
-                    </div>
-                </div>
+                    <Link to="/Connect" className="text-white text-decoration-none">Envoyer</Link>
+                    </div><span className="text-white">i</span>  
+                    <Link to="/Connect" className="float-end text-success mb-3 text-decoration-none"> <span className="mb-3">retour</span> </Link>
             </div>
         </form>
     )
